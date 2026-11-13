@@ -1,0 +1,17 @@
+// VS Code の書式（コメントと末尾のカンマが使える）
+{
+  "inputs": [
+    { "type": "promptString", "id": "ticket-token", "description": "チケット管理の鍵", "password": true }
+  ],
+  "servers": {
+    "tickets": {
+      "type": "http",
+      "url": "https://tickets.example.com/mcp",
+      "headers": { "Authorization": "Bearer ${input:ticket-token}" },
+    },
+    "intranet-search": {
+      "type": "http",
+      "url": "http://search.intra.example.local/mcp"
+    },
+  }
+}
