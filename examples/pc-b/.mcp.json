@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "db": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-server-sqlite==0.6.2", "--db-path", "./data/app.db"]
+    },
+    "ops-shell": {
+      "type": "stdio",
+      "command": "bash",
+      "args": ["./scripts/ops.sh"]
+    },
+    "browser": {
+      "type": "stdio",
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "example/browser-mcp:latest"]
+    }
+  }
+}
