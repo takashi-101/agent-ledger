@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\taro"]
+    },
+    "notes-readonly": {
+      "command": "python",
+      "args": ["C:/work/readonly-mcp/server.py"]
+    },
+    "chat-bot": {
+      "command": "npx",
+      "args": ["-y", "example-chat-mcp@1.4.2"],
+      "env": { "CHAT_API_TOKEN": "dummy-value-for-test" }
+    }
+  }
+}
