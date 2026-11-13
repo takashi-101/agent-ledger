@@ -1,0 +1,10 @@
+種類,名前,権限区分（推定）,接続,起動するもの,版の固定,接続先,環境変数,管理者,用途,停止手順,見直し日,無効,設定ファイル,指摘ID
+MCPサーバー,tickets,外部送信,リモート,https://tickets.example.com/mcp,あり,https://tickets.example.com/mcp,,,,,,,examples/pc-a/.vscode/mcp.json,L06
+MCPサーバー,intranet-search,外部送信,リモート,http://search.intra.example.local/mcp,あり,http://search.intra.example.local/mcp,,,,,,,examples/pc-a/.vscode/mcp.json,L04 L06 L08
+MCPサーバー,filesystem,書き込み,手元で起動,@modelcontextprotocol/server-filesystem,なし,,,,,,,,examples/pc-a/claude_desktop_config.json,L02 L03 L06
+MCPサーバー,notes-readonly,読み取り（確認済み）,手元で起動,python C:/work/readonly-mcp/server.py,あり,,,総務課 情報担当,議事録の検索,設定から notes-readonly を削除し、Claude Desktop を再起動,2027-03-31,,examples/pc-a/claude_desktop_config.json,
+MCPサーバー,chat-bot,外部送信,手元で起動,example-chat-mcp@1.4.2,あり,,CHAT_API_TOKEN,,,,,,examples/pc-a/claude_desktop_config.json,L01 L06
+スキル,report-maker,実行,手元,,,,,,,,,,examples/pc-a/skills/report-maker/SKILL.md,L05 L06 L07
+MCPサーバー,db,書き込み,手元で起動,mcp-server-sqlite==0.6.2,あり,,,業務システム係,受付件数の集計,.mcp.json から db を削除,2027-03-31,,examples/pc-b/.mcp.json,
+MCPサーバー,ops-shell,実行,手元で起動,bash ./scripts/ops.sh,あり,,,,,,,,examples/pc-b/.mcp.json,L05 L06
+MCPサーバー,browser,外部送信,手元で起動,example/browser-mcp:latest,なし,,,,,,,,examples/pc-b/.mcp.json,L02 L06
