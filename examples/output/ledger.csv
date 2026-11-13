@@ -1,4 +1,4 @@
-種類,名前,権限区分（推定）,接続,起動するもの,版の固定,接続先,環境変数,管理者,用途,停止手順,見直し日,無効,設定ファイル,指摘ID
+﻿種類,名前,権限区分（推定）,接続,起動するもの,版の固定,接続先,環境変数,管理者,用途,停止手順,見直し日,無効,設定ファイル,指摘ID
 MCPサーバー,tickets,外部送信,リモート,https://tickets.example.com/mcp,あり,https://tickets.example.com/mcp,,,,,,,examples/pc-a/.vscode/mcp.json,L06
 MCPサーバー,intranet-search,外部送信,リモート,http://search.intra.example.local/mcp,あり,http://search.intra.example.local/mcp,,,,,,,examples/pc-a/.vscode/mcp.json,L04 L06 L08
 MCPサーバー,filesystem,書き込み,手元で起動,@modelcontextprotocol/server-filesystem,なし,,,,,,,,examples/pc-a/claude_desktop_config.json,L02 L03 L06
