@@ -70,11 +70,13 @@ agent-ledger 探すフォルダ --owners owners.json --out ledger
 
 ## 根拠（学習）
 
-| 機能 | 裏付けになる学習（発行元・名称・発行日） | 照会先（Credly） |
-|---|---|---|
-| MCPの設定と Agent Skills の読み取り、道具の台帳化 | Coursera（認定：IBM）「Build AI Agents Using MCP」2026年11月3日 | https://www.credly.com/badges/eb0ddb53-3a26-48ba-95d6-cbc242ed24bc |
-| 危ない設定の指摘（鍵の直書き、公開範囲の広すぎる設定） | Amazon Web Services Training and Certification「AWS Knowledge: Security Champion - Training Badge」2025年11月10日 | https://www.credly.com/badges/ddab077d-58eb-4807-bec1-69e5c6aeb9a5 |
-| 権限区分の推定と、AIエージェントのリスクの整理 | Coursera（認定：IBM）「Generative AI: Impact, Considerations, and Ethical Issues」2026年11月11日 | https://www.credly.com/badges/17087670-8825-43bc-8c8e-b4dd9b98cc8a |
+| 求められる力 | 機能 | 裏付けになる学習（発行元・名称・発行日） | 照会先（Credly） |
+|---|---|---|---|
+| 生成AI・LLMの実装（RAG・エージェント・MCP） | MCPの設定と Agent Skills の読み取り、道具の台帳化 | Coursera（認定：IBM）「Build AI Agents Using MCP」2026年11月3日 | https://www.credly.com/badges/eb0ddb53-3a26-48ba-95d6-cbc242ed24bc |
+| セキュリティ・ガバナンス | 危ない設定の指摘（鍵の直書き、公開範囲の広すぎる設定） | Amazon Web Services Training and Certification「AWS Knowledge: Security Champion - Training Badge」2025年11月10日 | https://www.credly.com/badges/ddab077d-58eb-4807-bec1-69e5c6aeb9a5 |
+| セキュリティ・ガバナンス | 権限区分の推定と、AIエージェントのリスクの整理 | Coursera（認定：IBM）「Generative AI: Impact, Considerations, and Ethical Issues」2026年11月11日 | https://www.credly.com/badges/17087670-8825-43bc-8c8e-b4dd9b98cc8a |
+
+「求められる力」の分け方は、[プロフィール](https://github.com/takashi-101) の「FDE・AXで求められる力と、その根拠」と同じです。
 
 - Deep Dive: Data Governance Best Practices - Security Primitives（Palantir）：[修了証](https://verify.skilljar.com/c/mimh9x3rzqo7)
 - Credlyの全件（JavaScriptを動かさずに読めるJSON。AIの読み込み機能や検索のクローラーでも読める）：https://www.credly.com/users/takashi-higuchi.2d0eec27/badges.json
